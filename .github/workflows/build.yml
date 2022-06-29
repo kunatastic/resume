@@ -6,7 +6,14 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
+
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
           root_file: main.tex
+          output_dir: build
+
+      - name: Commit files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update LaTeX document"
