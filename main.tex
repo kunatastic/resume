@@ -1,0 +1,182 @@
+%-------------------------
+% Resume in Latex
+% Author : Kunal Kumar Jha
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{simplecv}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Kunal Kumar Jha} \\ \vspace{1pt}
+    Full Stack Web Developer | Automation | Graphical Designer   \\ \vspace{1pt}
+    \href{mailto:kunatastic@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{kunatastic@gmail.com}} ~ 
+    \href{https://kunatastic.com}{\raisebox{-0.2\height}\faLink\ \underline{https://kunatastic.com}} ~ 
+    \href{https://linkedin.com/in/kunatastic/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedIn/kunatastic}}  ~
+    \href{https://github.com/kunatatsic}{\raisebox{-0.2\height}\faGithub\ \underline{github/kunatastic}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Vellore Institute of Technology}{June 2019 -- Present}
+      {B. Tech in Computer Science and Engineering, CGPA: 9.17/10 \emph{(till 6th sem)}}{Chennai, IN}
+%   \resumeSubHeadingListEnd
+%   \vspace{-4pt}
+%   \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sri Pratibha Junior College}{April. 2017 -- May 2019}
+      {Senior Secondary, Score: $$96.5\%$$}{Hyderabad, IN}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {PupilFirst (AICTC recognised)}{May 2022 -- Present}
+      {Full Stack Developer Intern and Open Source Contributors}{Remote}
+      \resumeItemListStart
+        \resumeItem{Optimised the User Interface for smaller and medium display size devices and improved Lighthouse scores for responsiveness}
+        \resumeItem{Developed a service to cancel the a set of unit tasks daily on a product in development in order to decrease time needed for team members to identify and fix bugs/issues.}
+        \resumeItem{Explored ways to visualize and analysis to read the data from photos of a 5 para monitors in the ICU centers all across India.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Procial Network}{July 2021 -- November 2021}
+      {Full Stack Web Developer Intern}{Remote}
+      \resumeItemListStart
+        \resumeItem{Presented and implemented suggestions requested from real world stack holders along with 2 other interns and one of the top performing intern.}
+        \resumeItem{Implemented browser based push notification framework in node.js and integration with present react application using service workers.}
+        \resumeItem{Integrated global state management like redux with thunk to manage the data retrieved by the APIs.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Spark Foundation}{February 2021 -- March 2021}
+      {Web Developer Intern}{Remote}
+      \resumeItemListStart
+        \resumeItem{Developed a 3rd party payment gateway full stack Application using React.js, Node.js, MongoDb and Express. that integrated RazorPay as the payment gateway for collecting donation for the charity.}
+        \resumeItem{Customized automated email, designed and developed a lightweight, interactive user interface using Three.js.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    
+    \resumeProjectHeading
+        {\textbf{Oxy-cure} $|$ \emph{React, Node.js, MongoDB, LeafLet}}{April 2021 -- May 2021}
+            \resumeItemListStart
+            \resumeItem{Developed an oxygen management system on visualised on maps for easy querying and easy accessibility.}
+            \resumeItem{Implemented secure http-only cookie based JWT authentication to avoid any XXS or cookie hijacking attacks as user's location was very sensitive information.}
+            \resumeItem{Processed the user's location data for easy retrieving and storing data, also optimised the geo-spatial queries for faster and accurate response from the MongoDB}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+    \resumeProjectHeading
+          {\textbf{Clickster} $|$ \emph{React, Node.js, Socket.io, Express}}{May 2022}
+          \resumeItemListStart
+            \resumeItem{Created an highly customised browser based multiplayer game using web sockets, was able to handle 6 concurrent games played simultaneously on node server serving the clients.}
+            \resumeItem{Dockerized the application for easier deployment and testing purposes, implemented proper react toastifier for the better user experience}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+    
+    \resumeProjectHeading
+          {\textbf{Trano} $|$ \emph{Python, Django, Celery}}{March 2022}
+          \resumeItemListStart
+            \resumeItem{Developed a online ticket checking framework which reallocates the tickets if the person has not boarded the train.}
+            \resumeItem{Designed and implemented point based ticket reallocation mechanism for giving priorities based upon gender, age, distance, relative distance of the destination, implemented non-blocking background tasks to reallocate the seats for the passengers.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+    
+    \resumeProjectHeading
+          {\textbf{Brezita} $|$ \emph{Flask, Tensorflow, Colab}}{November 2021}
+          \resumeItemListStart
+            \resumeItem{Created an semi-automated captcha cracker tool using Convolutional Neural Network with a decent accuracy of 88\%.}
+            \resumeItem{Deployed the captcha detecting model to flask server and created a API to serve the same model for different applications.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+
+    \resumeProjectHeading
+          {\textbf{Caber} $|$ \emph{Php, MySql, Bootstrap, Jquery}}{April 2020}
+          \resumeItemListStart
+            \resumeItem{Implemenated a Webapplication that can cluster the users on the basis of date of travel and location, so they can easily cab a pool, and get a good company on the way}
+            \resumeItem{Processed user inputted information in the back-end of the app to return a list of people and their basic information to contact for cab pooling.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+    \resumeProjectHeading
+          {\textbf{Insta-Fier} $|$ \emph{Python, Selenium}}{May 2020}
+          \resumeItemListStart
+            \resumeItem{Python Script using Selenium that automates the list of all the new messages and person who shared their posts which is automated using a bot.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+% %------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-4pt, parsep=3pt]
+%                 \item Data Structures
+%                 \item Software Engineering
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Operating System
+%                 \item Internet Technology
+%                 \item Compiler Design
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, C, HTML/CSS, JavaScript, TypeScript, SQL} \\
+     \textbf{Developer Tools}{: VS Code, Digital Ocean, } \\
+     \textbf{Technologies/Frameworks}{: Linux, GitHub, Docker, React, Django} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{CYSCOM VITC}{November 2021 -- Present}{General Secretary}{Vellore Institute of Technology}
+            \resumeItemListStart
+                \resumeItem{Led a student chapter with 100+ active members to work towards goals that improve and promote the cyber security awerness and knowledge to prevent any security attacks.}
+                \resumeItem{Managed national level hackathon \emph{Tetraflip} which had gathered over 500+ participants from all over the india.}
+                \resumeItem{Organised including planning, operations, hospitality and overall coordination, have organised 6 events (in both online and offline mode)  with almost 100+ active participants in all the event.}
+            \resumeItemListEnd
+
+        \resumeSubheading{Dramatics Club of VIT Chennai}{November 2021 -- Present}{Performer  | Co-writer}{Vellore Institute of Technology}
+            \resumeItemListStart
+                \resumeItem{Secured \nth{1} position in overall best play category at Drama League an annual stage play fest organised by Dramatics Club of VIT Chennai.}
+                \resumeItem{Bagged \nth{3} runner up position in overall best act category at RVCE, Banglore}
+            \resumeItemListEnd
+        
+        \resumeSubheading{Technovation}{Summer 2021}{Mentor}{Vellore Institute of Technology}
+            \resumeItemListStart
+                \resumeItem{Mentored a group of 3 high school student in for a international level hackathon.}
+                \resumeItem{Our team was the only team selected from the Chennai Region}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\end{document}
