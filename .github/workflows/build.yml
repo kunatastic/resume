@@ -15,7 +15,7 @@ jobs:
 
       - name: Rename PDF file
         run: |
-          mv main.pdf kunal_kumar_jha_resume.pdf
+          mv main.pdf resume.pdf
 
       - name: Commit files
         uses: stefanzweifel/git-auto-commit-action@v4
