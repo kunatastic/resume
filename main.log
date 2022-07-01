@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.1)  30 JUN 2022 04:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.1)  1 JUL 2022 08:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-04-29>
+LaTeX2e <2022-06-01> patch level 3
+L3 programming layer <2022-06-16>
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/size11.clo
@@ -38,7 +38,7 @@ Package: fullpage 1999/02/23 1.1 (PWD)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box50
+\ttl@box=\box51
 \beforetitleunit=\skip50
 \aftertitleunit=\skip51
 \ttl@plus=\dimen139
@@ -52,7 +52,7 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -64,7 +64,8 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-))
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks17
@@ -77,12 +78,12 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip52
 \enit@outerparindent=\dimen144
 \enit@toks=\toks20
-\enit@inbox=\box51
+\enit@inbox=\box52
 \enit@count@id=\count193
 \enitdp@description=\count194
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
@@ -102,7 +103,7 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
@@ -123,15 +124,26 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (/opt/texlive/texdir/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
+(/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
 (/opt/texlive/texdir/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count195
 )
 \@linkdim=\dimen145
-\Hy@linkcounter=\count195
-\Hy@pagecounter=\count196
+\Hy@linkcounter=\count196
+\Hy@pagecounter=\count197
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -141,27 +153,27 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/opt/texlive/texdir/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count197
+\Hy@SavedSpaceFactor=\count198
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4137.
-Package hyperref Info: Link nesting OFF on input line 4142.
-Package hyperref Info: Hyper index ON on input line 4145.
-Package hyperref Info: Plain pages OFF on input line 4152.
-Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count198
+Package hyperref Info: Bookmarks ON on input line 4408.
+\c@Hy@tempcnt=\count199
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4749.
+LaTeX Info: Redefining \url on input line 4746.
 \XeTeXLinkMargin=\dimen146
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/bitset/bitset.sty
@@ -171,39 +183,37 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count199
+\Fld@menulength=\count266
 \Field@Width=\dimen147
 \Fld@charsize=\dimen148
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
-LaTeX Info: Redefining \ref on input line 6097.
-LaTeX Info: Redefining \pageref on input line 6101.
+Package hyperref Info: Hyper figures OFF on input line 6024.
+Package hyperref Info: Link nesting OFF on input line 6029.
+Package hyperref Info: Hyper index ON on input line 6032.
+Package hyperref Info: backreferencing OFF on input line 6039.
+Package hyperref Info: Link coloring OFF on input line 6044.
+Package hyperref Info: Link coloring with OCG OFF on input line 6049.
+Package hyperref Info: PDF/A mode OFF on input line 6054.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count266
-\c@Item=\count267
-\c@Hfootnote=\count268
+\Hy@abspage=\count267
+\c@Item=\count268
+\c@Hfootnote=\count269
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count269
-\c@bookmark@seq@number=\count270
+\Fld@listcount=\count270
+\c@bookmark@seq@number=\count271
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -217,7 +227,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip53
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and foote
 rs
 \f@nch@headwidth=\skip54
 \f@nch@O@elh=\skip55
@@ -230,14 +240,14 @@ rs
 \f@nch@O@orf=\skip62
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2022/02/26 3.73 The Babel package
-\babel@savecnt=\count271
+Package: babel 2022/06/26 3.77 The Babel package
+\babel@savecnt=\count272
 \U@D=\dimen149
 \l@unhyphenated=\language87
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count272
+\bbl@dirlevel=\count273
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
@@ -248,74 +258,77 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language21). Reported on input line 108.
 ))
+(/opt/texlive/texdir/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen150
-\ar@mcellbox=\box52
+\ar@mcellbox=\box53
 \extrarowheight=\dimen151
 \NC@list=\toks22
 \extratabsurround=\skip63
 \backup@length=\skip64
-\ar@cellbox=\box53
+\ar@cellbox=\box54
 )
 \TX@col@width=\dimen152
 \TX@old@table=\dimen153
 \TX@old@col=\dimen154
 \TX@target=\dimen155
 \TX@delta=\dimen156
-\TX@cols=\count273
+\TX@cols=\count274
 \TX@ftn=\toks23
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-04-29 L3 programming layer (loader) 
+Package: expl3 2022-06-16 L3 programming layer (loader) 
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count274
-\l__pdf_internal_box=\box54
+\l__color_backend_stack_int=\count275
+\l__pdf_internal_box=\box55
 ))
-Package: fontawesome5 2021/06/04 v5.15.3 Font Awesome 5
+Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2022-01-12 L3 Experimental document command parser
+Package: xparse 2022-06-22 L3 Experimental document command parser
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-hel
 per.sty
-Package: fontawesome5-generic-helper 2021/06/04 v5.15.3 non-uTeX helper for fon
+Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
 tawesome5
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def
 ))) (/opt/texlive/texdir/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count275
-\mult@box=\box55
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count276
+\mult@box=\box56
 \multicol@leftmargin=\dimen157
-\c@unbalance=\count276
-\c@collectmore=\count277
-\doublecol@number=\count278
-\multicoltolerance=\count279
-\multicolpretolerance=\count280
+\c@unbalance=\count277
+\c@collectmore=\count278
+\doublecol@number=\count279
+\multicoltolerance=\count280
+\multicolpretolerance=\count281
 \full@width=\dimen158
 \page@free=\dimen159
 \premulticols=\dimen160
 \postmulticols=\dimen161
 \multicolsep=\skip65
 \multicolbaselineskip=\skip66
-\partial@page=\box56
-\last@line=\box57
+\partial@page=\box57
+\last@line=\box58
 \maxbalancingoverflow=\dimen162
-\mult@rightbox=\box58
-\mult@grightbox=\box59
-\mult@firstbox=\box60
-\mult@gfirstbox=\box61
-\@tempa=\box62
+\mult@rightbox=\box59
+\mult@grightbox=\box60
+\mult@firstbox=\box61
+\mult@gfirstbox=\box62
 \@tempa=\box63
 \@tempa=\box64
 \@tempa=\box65
@@ -351,15 +364,16 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box95
 \@tempa=\box96
 \@tempa=\box97
-\c@minrows=\count281
-\c@columnbadness=\count282
-\c@finalcolumnbadness=\count283
+\@tempa=\box98
+\c@minrows=\count282
+\c@columnbadness=\count283
+\c@finalcolumnbadness=\count284
 \last@try=\dimen163
 \multicolovershoot=\dimen164
 \multicolundershoot=\dimen165
-\mult@nat@firstbox=\box98
-\colbreak@box=\box99
-\mc@col@check@num=\count284
+\mult@nat@firstbox=\box99
+\colbreak@box=\box100
+\mc@col@check@num=\count285
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/nth/nth.sty
 Package: nth 2002/02/27
@@ -389,34 +403,20 @@ LaTeX Font Info:    ... okay on input line 14.
 
 (/opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count285
+\scratchcounter=\count286
 \scratchdimen=\dimen166
-\scratchbox=\box100
-\nofMPsegments=\count286
-\nofMParguments=\count287
+\scratchbox=\box101
+\nofMPsegments=\count287
+\nofMParguments=\count288
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count288
+\MPscratchCnt=\count289
 \MPscratchDim=\dimen167
-\MPnumerator=\count289
-\makeMPintoPDFobject=\count290
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks25
 )
 Package hyperref Info: Link coloring OFF on input line 14.
- (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count291
-)
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
-(./main.out) (./main.out)
+ (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -507,13 +507,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3D1587EF9E17D9B11EE318D5621864CE;579.
  ) 
 Here is how much of TeX's memory you used:
- 13598 strings out of 478305
- 236314 string characters out of 5847251
- 551797 words of memory out of 5000000
- 31607 multiletter control sequences out of 15000+600000
+ 13687 strings out of 478037
+ 239007 string characters out of 5841058
+ 563487 words of memory out of 5000000
+ 31955 multiletter control sequences out of 15000+600000
  476388 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,77p,301b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,11n,91p,301b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{
 /opt/texlive/texdir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/opt/
 texlive/texdir/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}</opt/texli
@@ -526,7 +526,7 @@ fb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></o
 pt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/te
 xlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></opt/texlive/
 texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (2 pages, 127599 bytes).
+Output written on main.pdf (2 pages, 127602 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  71 compressed objects within 1 object stream
