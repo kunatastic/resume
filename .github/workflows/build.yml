@@ -20,5 +20,5 @@ jobs:
       - name: Commit files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Build LaTeX document $(date -d '+5 hours +30 minutes' +'%d %b %Y | %I:%M %p')"
+          commit_message: Build LaTeX document
           file_pattern: resume.pdf
