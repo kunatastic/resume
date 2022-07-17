@@ -7,6 +7,16 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
 
+      - name: Verify change in main.tex and simplecv.sty
+        uses: tj-actions/changed-files@v23.1
+        run: |
+          changed_files=$(git diff --name-only HEAD)
+          if [[ "$changed_files" != *"main.tex"* && "$changed_files" != *"simplecv.sty"* ]]; then
+            echo "No changes in main.tex or simplecv.sty"
+            exit 1
+          fi
+          echo "Build will proceed"
+
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
